@@ -21,7 +21,7 @@ public class ObjectDetectionUnitTest
             imageScenesData.Add(imageBytes);
         }
         
-        var detectObjectInScenesResults = await new ObjectDetection().DetectObjectInScenesAsync(imageScenesData);
+        var detectObjectInScenesResults = await new ObjectDetection().MockDetectObjectInScenesAsync(imageScenesData);
         Assert.Equal("[{\"Dimensions\":{\"X\":0,\"Y\":0,\"Height\":2,\"Width\":2},\"Label\":\"Car\",\"Confidence\":0.5}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Box));
         Assert.Equal("[{\"Dimensions\":{\"X\":1,\"Y\":1,\"Height\":1,\"Width\":1},\"Label\":\"Flower\",\"Confidence\":0.9}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Box));
     }
