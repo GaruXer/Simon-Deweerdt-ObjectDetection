@@ -25,8 +25,4 @@ jobs:
         run: dotnet test
       
       - name: Publish executable
-        run: dotnet publish ./Simon.Deweerdt.ObjectDetection.Console/ \
-          --configuration Release \
-          --runtime win-x64 \
-          --self-contained true \
-          --output ./publish
+        run: dotnet publish ./Simon.Deweerdt.ObjectDetection.Console --configuration Release --runtime win-x64 --self-contained true --output ./publish
