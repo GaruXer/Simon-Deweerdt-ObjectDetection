@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Deweerdt.ObjectDetection", "Simon.Deweerdt.ObjectDetection\Simon.Deweerdt.ObjectDetection.csproj", "{B68FA6D5-8AAC-4F30-9113-C8CA62C4E71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Deweerdt.ObjectDetection.Tests", "Simon.Deweerdt.ObjectDetection.Tests\Simon.Deweerdt.ObjectDetection.Tests.csproj", "{F3B5780F-E647-424A-B4D1-B8FA74C4C453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Deweerdt.ObjectDetection.Console", "Simon.Deweerdt.ObjectDetection.Console\Simon.Deweerdt.ObjectDetection.Console.csproj", "{97610064-A408-4154-BF5E-C938134C7084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Deweerdt.ObjectDetection.WebApi", "Simon.Deweerdt.ObjectDetection.WebApi\Simon.Deweerdt.ObjectDetection.WebApi.csproj", "{BBD7335A-A8B0-4836-9380-C035AE6A6873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B68FA6D5-8AAC-4F30-9113-C8CA62C4E71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68FA6D5-8AAC-4F30-9113-C8CA62C4E71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68FA6D5-8AAC-4F30-9113-C8CA62C4E71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68FA6D5-8AAC-4F30-9113-C8CA62C4E71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B5780F-E647-424A-B4D1-B8FA74C4C453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5780F-E647-424A-B4D1-B8FA74C4C453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B5780F-E647-424A-B4D1-B8FA74C4C453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B5780F-E647-424A-B4D1-B8FA74C4C453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97610064-A408-4154-BF5E-C938134C7084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97610064-A408-4154-BF5E-C938134C7084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97610064-A408-4154-BF5E-C938134C7084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97610064-A408-4154-BF5E-C938134C7084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD7335A-A8B0-4836-9380-C035AE6A6873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD7335A-A8B0-4836-9380-C035AE6A6873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD7335A-A8B0-4836-9380-C035AE6A6873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD7335A-A8B0-4836-9380-C035AE6A6873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
