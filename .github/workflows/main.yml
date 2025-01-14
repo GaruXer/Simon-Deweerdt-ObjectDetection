@@ -1,0 +1,32 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    name: Build, Test, and Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      
+      - name: Run tests
+        working-directory: ./Simon.Deweerdt.ObjectDetection.Tests
+        run: dotnet test
+      
+      - name: Publish executable
+        run: dotnet publish ./Simon.Deweerdt.ObjectDetection.Console/ \
+          --configuration Release \
+          --runtime win-x64 \
+          --self-contained true \
+          --output ./publish
